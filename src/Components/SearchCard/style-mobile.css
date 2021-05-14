@@ -1,0 +1,16 @@
+/* mobile phone */
+@media all and (max-width: 768px) {
+    
+    .search-card .section-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-card .url {
+        padding-left: 0;
+    }
+
+    .search-card .section-story-text {
+        -webkit-line-clamp: 6;
+    }
+}

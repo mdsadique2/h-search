@@ -1,0 +1,19 @@
+.app-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: var(--color-app-background);
+}
+
+.error-message {
+    margin: var(--spacing-medium);
+    color: var(--color-dark-grey);
+    font-size: var(--font-regular);
+    text-align: center;
+}
+
+
+.app-container .page-container {
+    padding: 0px var(--spacing-large) var(--spacing-large);
+}

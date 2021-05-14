@@ -1,0 +1,76 @@
+:root {
+    --base-rem-size: 1rem;
+
+    --font-small: 8px;
+    --font-medium: 12px;
+    --font-large: 16px;
+    --font-x-large: 24px;
+    --font-xx-large: 32px;
+
+    --font-regular: 14px;
+
+    --all-transtion: all 0.25s ease;
+
+    --color-white: #fff;
+    --color-primary: #fdc93b;
+    --color-primary-active: #fdba00;
+    --color-danger: #f44336;
+    --color-dark-grey: #4b4f72;
+    --color-light-grey: #f9f9f9;
+    --color-grey: #9a9ec7;
+    --color-app-background: #eef1f1;
+    --color-border-grey: #cacbe0;
+
+
+    --color-text-primary: #1e2535;
+
+
+    --spacing-x-small: calc(var(--base-rem-size) * 0.25);
+    --spacing-small:   calc(var(--base-rem-size) * 0.5);
+    --spacing-medium:  calc(var(--base-rem-size) * 1);
+    --spacing-large:   calc(var(--base-rem-size) * 1.5);
+    --spacing-x-large: calc(var(--base-rem-size) * 2);
+
+    --box-shadow-1: 0 2px 15px -3px rgb(0 0 0 / 31%);
+    --box-shadow-1-hover: 0 8px 4px -5px rgb(0 0 0 / 15%);
+
+    --border-radius: 12px
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--color-light-grey);
+    color: var(--color-text-primary);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--color-grey);
+    text-decoration: none;
+    transition: var(--all-transtion);
+}
+
+a:hover {
+    color: var(--color-dark-grey);
+}
+
+
+.card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border-grey);
+    border-radius: var(--border-radius);
+    font-size: var(--font-regular);
+    line-height: 1.5;
+    padding: var(--spacing-medium);
+    transition: var(--transition-all);
+}

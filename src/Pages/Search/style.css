@@ -1,0 +1,6 @@
+.searchContainer {
+    background-color: var(--color-app-background);
+    padding: var(--spacing-medium) 0px;
+    position: sticky;
+    top: 72px;
+}

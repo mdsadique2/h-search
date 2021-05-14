@@ -1,0 +1,14 @@
+.attributes {
+    display: flex;
+    color: var(--color-dark-grey);
+    font-size: var(--font-medium);
+    margin-right: var(--spacing-medium);
+}
+
+.attributes .key {
+    margin-right: var(--spacing-small);
+}
+
+.attributes .separator {
+    margin: 0 var(--spacing-small);
+}
